@@ -1,0 +1,20 @@
+spring:
+  output:
+    ansi:
+      enabled: never
+
+info:
+  app:
+    name: User Service
+    description: User Service
+    version: 1.0.0
+
+env:
+  BaseURL: https://api-dev.raidea.io/user-service/v1
+  BaseURLRev11: https://api-dev.raidea.io/user-service/v1.1
+
+cms:
+  api:
+    url: https://biz-cms-api.dev.platdev.net
+  raidea:
+    url: "https://cms.dev.raidea.net"
